@@ -29,5 +29,5 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/CATAAS:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cataas:latest
           no-cache: true
