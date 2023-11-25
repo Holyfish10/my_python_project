@@ -24,7 +24,7 @@ jobs:
       with:
         username: ${{ secrets.REG_USERNAME }}
         password: ${{ secrets.REG_PASSWORD }}
-        server: ${{ secrets.REGISTRY}}
+        registry: ${{ secrets.REGISTRY}}
         
     - uses: actions/checkout@v3
     - name: Build the Docker image
