@@ -5,7 +5,7 @@ import requests
 #req = requests.get("https://cataas.com/cat")
 
 # Square:
- req = requests.get("https://cataas.com/cat?type=square")
+req = requests.get("https://cataas.com/cat?type=square")
 
 # Save image
 with open("cats/cat.jpg", "wb") as handler:
