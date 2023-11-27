@@ -2,10 +2,10 @@ import requests
 
 # Cat as a service (https://cataas.com/)
 # normal:
-req = requests.get("https://cataas.com/cat")
+#req = requests.get("https://cataas.com/cat")
 
 # Square:
-# req = requests.get("https://cataas.com/cat?type=square")
+ req = requests.get("https://cataas.com/cat?type=square")
 
 # Save image
 with open("cats/cat.jpg", "wb") as handler:
